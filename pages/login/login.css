@@ -1,0 +1,83 @@
+#pictorial, #pic {
+    width: 1024px;
+    height: 768px;
+}
+
+#version {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+#window-controls {
+    display: flex;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    gap: 30px;
+    width: 342px;
+    height: 90px;
+    justify-content: right;
+    padding: 15px 30px;
+    color: #ffffff;
+}
+
+#window-controls button {
+    background: transparent;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    transition: background 0.2s;
+    padding: 0;
+}
+
+#window-controls button:hover {
+    background: #eee;
+}
+
+#panel {
+    width: 342px;
+    height: 678px;
+    margin: 0;
+    margin-top: 90px;
+}
+
+#logo {
+    margin: 30px 46px;
+}
+
+#avatar {
+    margin: 30px 96px;
+}
+
+#login-button {
+    margin: 30px 47px;
+    text-align: center;
+}
+
+#checkbox-items {
+    margin: auto 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.check-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.check-item a {
+    color: #ffffff;
+    text-decoration: none;
+}

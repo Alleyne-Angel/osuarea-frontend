@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Login to osu!Arena, the ultimate osu! experience." />
+    <meta name="keywords" content="osu, osu!Arena, rhythm game, music game" />
+    <link rel="stylesheet" href="./login.css" />
+    <link rel="stylesheet" href="../../global.css" />
+    <link rel="icon" href="../../assets/favicon.ico" type="image/x-icon" />
+    <link rel="manifest" href="../../assets/manifest.json" />
+    <title>osu!Arena</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="window-controls">
+            <button id="minimize-btn" title="Minimize">
+                <img src="../../assets/minimize.png" alt="-" width="30px" height="30px" />
+            </button>
+            <button id="close-btn" title="Close">
+                <img src="../../assets/close.png" alt="-" width="30px" height="30px" />
+            </button>
+        </div>
+        <div id="pictorial">
+            <div id="pic">
+                <img src="../../assets/pic.png" alt="pictorial" width="100%" height="100%" />
+            </div>
+            <div id="version">v1.0</div>
+        </div>
+        <div id="panel">
+            <div id="logo">
+                <img src="../../assets/logo.png" alt="osu!arena" width="250px" height="59px" />
+            </div>
+            <div id="avatar">
+                <img src="../../assets/default_avatar.png" alt="avatar" width="150px" height="150px" />
+            </div>
+            <div id="login-button">
+                <button>
+                    <img src="../../assets/login.png" alt="Login with osu!" width="248px" height="45px" />
+                </button>
+            </div>
+            <div id="checkbox-items">
+                <div class="check-item">
+                    <input type="checkbox" id="remember-me" />
+                    <label for="remember-me">记住上次登录</label>
+                </div>
+                <div class="check-item"><input type="checkbox" id="agree-terms" />
+                    <label for="agree-terms">我已阅读并同意<a href="#">个人信息保护政策</a></label>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./login.js"></script>
+
+</html>
